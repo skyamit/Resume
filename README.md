@@ -14,7 +14,7 @@ Built a Portfolio, where I keep my details updated to give a brief introduction 
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Background Color | ![#be920b](https://via.placeholder.com/10/be920b?text=+) #be920b |
+| Background Color |  #be920b |
 
 
 ## Live Link
