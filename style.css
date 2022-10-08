@@ -1,0 +1,351 @@
+body{
+background: linear-gradient(120deg, rgba(226,189,76,1) 0%, rgba(235,226,182,1) 51%, rgba(226,189,76,1) 100%);
+margin: 0px;
+font-family: monospace;
+}
+
+
+
+
+/* Header Css */
+header{
+	background-color: #be920b;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+header h3{
+	color: white;
+	margin: 0px;
+	display: inline-block;
+	padding: 10px 8px;
+	font-size: calc(7px + .9vw);
+	font-family: monospace;
+}
+header h3:hover{
+	color: black;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+header button a{
+	color: black;
+}
+header button{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border: 2px solid rgba(235,226,182,1);
+  font-family: monospace;
+  padding: 5px 8px;
+}
+header button:hover{
+	background-color: rgba(226,189,76,1);
+	color: white;
+	font-weight: bold;
+}
+#icon{
+	height: 60px;
+	margin-top: 5px;
+}
+
+
+
+
+/* Role and Image */
+main{
+	margin-top: 50px;
+}
+#name-image{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#circle{
+	overflow: hidden;
+	height: 40vw;
+	max-height: 500px;
+	width: 40vw;
+	max-width: 500px;
+	border-radius: 40vw;
+}
+#circle:hover{
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 15px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myimage{
+	width: 40vw;
+	max-width: 500px;
+}
+
+#name-image h2{
+	font-weight: bolder;
+	font-family: monospace;
+	font-size: 4vw;
+	margin: 0px;
+}
+#name-image h2:hover{
+	text-shadow: 1px 1px 1px black, 0 0 7px #be920b, 0 0 5px #be920b;
+	color: white;
+}
+#name-image h5:hover{
+	text-shadow: 1px 1px 1px black, 0 0 7px #be920b, 0 0 2px #be920b;
+	color: white;
+}
+#name-image h5{
+	font-family: monospace;
+	margin: 0px;
+	font-size: 2vw;
+}
+
+
+
+
+/* sub header */
+.sub-heading{
+	margin-left: 5vw;
+}
+.sub-heading h3{
+	font-weight: bolder;
+	font-family: monospace;
+	font-size: 4vw;
+}
+.sub-heading h3:hover{
+	text-shadow: 1px 1px 1px black, 0 0 7px #be920b, 0 0 5px #be920b;
+	color: white;
+}
+
+
+
+
+
+/* Experience */
+#experience{
+	display: flex;
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+#experience-content{
+	margin-left: 2vw;
+}
+#iqmetrix{
+	margin-top: 0px;
+}
+#synchronoss{
+	margin-top: 30px;
+}
+#cognizant{
+	margin-top: 30px;
+}
+.company{
+	height: 140px;
+	width: auto;
+}
+#experience-content h3{
+	margin: 0px;
+	padding-top: 5px;
+}
+#experience-content h2{
+	margin: 0px;
+}
+
+
+
+/* Education Div */
+#education{
+	display: flex;	
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+.education-class{
+	height: 100px;
+	margin-top: 30px;
+	margin-left: 2vw;
+}
+#btech{
+	margin-top: -15px;
+}
+
+
+
+
+/* projects */
+#projects{
+	display: flex;	
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+
+.project-class{
+	height: 140px;
+	margin-top: 30px;
+	margin-left: 2vw;
+}
+
+#lilichatians{
+	margin-top: 0px;
+}
+
+.project-class h2{
+	margin: 0px;
+}
+
+#project-info h3{
+	margin: 0px;
+}
+
+
+
+
+
+/* Techstack */
+#techstack{
+	display: flex;	
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+
+.programming{
+	height: 89px;
+	margin-left: 2vw;
+}
+
+#programming-language{
+	margin-top: 0px;
+}
+
+.info-type{
+	margin: 0px;
+	display: inline;
+}
+
+
+
+
+/* Achievements */
+
+#achievements{
+	display: flex;
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+
+.achivements-class{
+	height: 80px;
+	margin-left: 2vw;
+	margin-top: 0px;
+}
+
+
+
+/* Certification */
+#certifications{
+	display: flex;
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+
+.certification-class{
+	height: 80px;
+	margin-left: 2vw;
+	margin-top: 0px;
+}
+
+.certification-class h2{
+	margin: 0px;
+}
+
+
+
+
+
+
+/* Contact me */
+#contact-me-main{
+	display: flex;	
+	justify-content: safe start;
+	margin-left: 6vw;
+}
+#contact-me-div{
+	display: grid;
+	width: 50vw;
+	margin-left: 2vw;
+}
+
+#contact-me-div input,textarea{
+	margin-top: 5px;
+	width: 50vw;
+	font-family: monospace;
+	font-size: 16px;
+	background-color: transparent;
+	border-width: 0px 0px 3px 0px;
+	border-color: #be920b;
+	outline: none;
+}
+
+#contact-me-div button{
+	margin-top: 5px;
+	width: 50vw;
+	background-color: white;
+	font-family: monospace;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 5px 0px 5px 0px;
+}
+#contact-me-div button:hover{
+	border-color: white;
+	color: white;
+	background-color: #be920b;
+}
+
+
+
+/*Footer*/
+#footer-message{
+	margin-top: 20px;
+	background-color: rgba(226,189,76,1);	
+	font-size: 1.2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-shadow: 1px 1px 1px black, 0 0 7px white, 0 0 5px white;	
+}
+
+
+
+
+/* cirlce and line */
+.circle{
+	positon: absolute;
+	margin-top: 150px;
+	left: 0px;
+	width:20px;
+	height:20px;
+	background-color:black;
+	border-radius: 10px;
+}
+.line{
+	position: relative;
+	height:500px;
+	width: 8px;
+	border:solid;
+	border-width:0px 5px 0px 0px;
+	border-color:#be920b;
+}
+.first{
+	margin-top: 0px;
+}
+
+
+h2{
+		font-size: calc(12px + .9vw);
+}
+h3{
+		font-size: calc(7px + .9vw);
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+}
